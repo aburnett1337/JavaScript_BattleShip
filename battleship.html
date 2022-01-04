@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> BattleShip </title>
+    <link rel="stylesheet" href="style.css">
+    <script src ="script.js"></script>
+  </head>
+
+  <body>
+      <div class = "tables">
+        <div class = "grid board-p1">
+          <p1name id = "p1name">Player 1</p1name>
+          <row>1 2 3 4 5 6 7 8 9 10</row>
+          <column>A B C D E F G H I J</column>
+
+          <div class = "grid board-p1gameboard" id = "p1board">
+            
+          </div>
+        </div>
+        
+        <div class = "grid board-p2">
+          <p2name id = "p2name">Player 2</p2name>
+          <row>1 2 3 4 5 6 7 8 9 10</row>
+          <column>A B C D E F G H I J</column>
+
+          <div class = "grid board-p2gameboard" id = "p2board">
+           
+          </div>
+        </div>
+
+      </div>
+
+      <div class = "info" id = "info">
+        <input type="button" id="start" value="Start Game"/>
+        <br>
+        <p id = "para"> Please Enter In Your Names and ships under your names then click Start Game</p>
+        <input type = "text" id = "P1Input" value = "Insert Player 1's Name">
+        <input type = "text" id = "P2Input" value = "Insert Player 2's Name">
+        <br>
+        <p id = "shipHelp">Insert your ships following this format: <br>
+          Aircraft Carrier: A({rowstart}{columnstart} - {row end}{column end}) <br>
+          Battleship: B({rowstart}{columnstart} - {row end}{column end}) <br>
+          Submarine: S({rowstart}{columnstart} - {row end}{column end}) <br>
+          Example: A(A1-A5);B(B6-E6);S(H3-J3); </p>
+        <input type = "text" id = "P1Ships" value = "Insert Player 1's ships">
+        <input type = "text" id = "P2Ships" value = "Insert Player 2's ships">
+      </div>  
+  </body>
+</html>

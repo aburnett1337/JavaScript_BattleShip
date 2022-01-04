@@ -1,0 +1,118 @@
+.tables{
+    display: flex;
+}
+
+.board-p1 {
+    width: 600px;
+    height: 450px;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 7px solid lightblue;
+    background-color: lightblue;
+}
+
+.board-p1gameboard{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.grid p1name{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.board-p2 {
+    width: 600px;
+    height: 450px;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 7px solid lightblue;
+    background-color: lightblue;
+}
+
+.board-p2gameboard{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.grid p2name{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.grid row{
+    width: 90%;
+    height: 6%;
+    font-size: 35px;
+    text-align: center;
+    word-spacing: 25px;
+    margin-left: 10%; 
+}
+
+.grid column{
+    width: 6%;
+    height: 80%;
+    font-size: 31px;
+    text-align: center;
+    word-spacing: 10000px;
+    margin-top: 2px;
+}
+
+.board-p2 {
+    width: 600px;
+    height: 450px;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 7px solid lightblue;
+    background-color: lightblue;
+}
+
+.grid hiddentile {
+    width: 9%;
+    height: 8%;
+    border: 1px solid white;
+    background-color: black;
+    cursor: pointer
+}
+
+.grid shownhittile {
+    width: 9%;
+    height: 8%;
+    border: 1px solid white;
+    background-color: red;
+}
+
+.grid shownmisstile {
+    width: 9%;
+    height: 8%;
+    border: 1px solid white ;
+    background-color: grey;
+}
+
+#para {
+    font-size: 30px;
+}
